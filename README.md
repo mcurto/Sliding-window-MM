@@ -16,4 +16,9 @@ The alignement should be in the fasta format with sequence titles sperated by sp
    python .\Get_differentiating_regions.py Alignement_file.fasta "Species name" 23 Output_name
 
 ### Output files
-The script saves two output files
+The script saves two output files:
+1) Fasta alignement with sequences sorted per species
+2) Tab seperated text file where each line is the alignement position and collumnes have information of the sequence motif in the target species and mismatch statistics per species
+
+
+
