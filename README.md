@@ -9,4 +9,11 @@ The script takes four positional parameters:
 3) Sliding window size
 4) Prefix to save output files 
 
-#### Example:
+The alignement should be in the fasta format with sequence titles sperated by spaces in a way that species names would be in the second and third position:
+>OP689439.1 Etheostoma vitreum isolate EvitH cytochrome b (cytb) gene, partial cds; mitochondrial
+
+#### Code example:
+   python .\Get_differentiating_regions.py Alignement_file.fasta "Species name" 23 Output_name
+
+### Output files
+The script saves two output files
